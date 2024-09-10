@@ -1,8 +1,8 @@
 /*******************************
 
-脚本功能：布丁锁屏-DIY锁屏组件+解锁订阅
-下载地址：https://is.gd/y0cmbV
-软件版本：2.5.9
+脚本功能：恋相遇——解锁VIP
+下载地址：https://is.gd/dbptfo
+软件版本：1.3.2
 脚本作者：彭于晏💞
 更新时间：2024-10-11
 问题反馈：QQ+89996462
@@ -15,11 +15,11 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^http[s]?:\/\/screen-lock.sm-check.com\/userApi\/saveUser url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/budingsuoping.js
+^http[s]?:\/\/ms.51wnl-cq.com\/userApi\/getUserDetail url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/51wnlcq.js
 
-[mitm] 
+[mitm] 
 
-hostname = (screen-lock.sm-check.com|lxy.51wnl-cq.com)
+hostname = (ms.51wnl-cq.com|lxy.51wnl-cq.com)
 
 *******************************/
 
